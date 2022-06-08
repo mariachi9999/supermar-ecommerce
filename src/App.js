@@ -1,10 +1,12 @@
+import React from "react";
+import "./default.scss";
+import Header from "./components/Header";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h2>Hello World!!!</h2>
-      </header>
+      <Header />
+      <h2>Hello World!!!</h2>
     </div>
   );
 }
